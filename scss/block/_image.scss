@@ -1,0 +1,30 @@
+.image {
+  // min-width: 50%;
+}
+
+.image img {
+  // max-width: 570px;
+  // height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image__story {
+  min-height: 420px;
+}
+
+.image__benefits {
+  min-height: 420px;
+}
+
+.image__brand-info {
+  min-height: 420px;
+}
+
+.image__retailer {
+  min-height: 420px;
+}
+
+.image__style {
+  min-height: 420px;
+}

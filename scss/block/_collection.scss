@@ -1,0 +1,20 @@
+.brand__collection {
+  gap: 3.125rem;
+}
+
+.container-section {
+  flex: 1;
+  align-items: flex-end;
+  .section--slider {
+    min-width: 0;
+  }
+}
+
+.collection__link {
+  display: inline;
+
+  color: $text-color-link;
+  svg {
+    margin-left: 1.375rem;
+  }
+}

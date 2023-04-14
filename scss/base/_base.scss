@@ -1,0 +1,81 @@
+body {
+  font-family: "Inter";
+  font-weight: 400;
+  background-color: $bg-color-button-primary;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.disabled {
+  display: none;
+}
+
+.heading--xl {
+  @include heading--xl;
+}
+
+.heading--lg {
+  @include heading--lg;
+}
+
+.heading--md {
+  @include heading--md;
+}
+
+.header__container,
+.container {
+  max-width: $width;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding-top: 12.5rem;
+  padding-bottom: 12.5rem;
+  + .container {
+    padding-top: 0;
+  }
+  .container {
+    padding-top: 0;
+  }
+
+  &.container--slider {
+    position: relative;
+    max-width: 86.875rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+.container-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.75rem;
+}
+
+.container-section__block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heading-uppercase {
+  text-transform: uppercase;
+}
+.text--description {
+  font-size: 1.125rem;
+  line-height: 1.2778;
+  color: $text-color-primary;
+}

@@ -1,0 +1,33 @@
+.input {
+  display: flex;
+  align-items: center;
+
+  border-bottom: 0.0625rem solid $border-color;
+  color: $text-color-footer;
+}
+
+.input__text {
+  width: 100%;
+  padding-right: 0.3125rem;
+  padding-bottom: 0.8125rem;
+
+  &::placeholder {
+    font-size: 0.6875rem;
+    line-height: 0.8125rem;
+  }
+  &:focus {
+    + .input__svg {
+      color: $text-color-secondary;
+    }
+  }
+  + .input__svg {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+
+    cursor: pointer;
+  }
+}
+
+.input--text {
+  color: $text-color-secondary;
+}

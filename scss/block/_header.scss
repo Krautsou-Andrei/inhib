@@ -1,0 +1,20 @@
+.header {
+  background-image: url("../image/header-bg.jpg");
+  background-size: cover;
+  .text--description {
+    color: $text-color-secondary;
+  }
+  .heading--xxl {
+    @include heading--xxl($color: $text-color-secondary);
+  }
+}
+
+.header__top {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.header__info {
+  padding-top: 7.125rem;
+  padding-bottom: 15.9375rem;
+}

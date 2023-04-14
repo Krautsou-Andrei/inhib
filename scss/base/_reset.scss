@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+}
+
+input {
+  display: block;
+}
+
+input,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button,
+.button {
+  cursor: pointer;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+input[type="number"],
+input[type="number"]:hover,
+input[type="number"]:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+address {
+  font-family: inherit;
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  // width: 100%;
+  border-style: none;
+}
+
+fieldset {
+  border: none;
+}

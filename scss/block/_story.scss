@@ -1,0 +1,14 @@
+.story__section {
+  min-width: 17.8125rem;
+  flex: 1;
+  align-self: center;
+
+  .story__text:not(:last-child)::after {
+    content: "";
+    display: block;
+    height: 1em;
+  }
+}
+.stoty__heading {
+  padding-bottom: 1.25rem;
+}

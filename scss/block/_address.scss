@@ -1,0 +1,11 @@
+.address.container-section__block {
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 1.25rem;
+}
+
+.address__section {
+  flex: 1;
+  min-width: 13.75rem;
+  word-wrap: break-word;
+}

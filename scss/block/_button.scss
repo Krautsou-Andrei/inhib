@@ -1,0 +1,17 @@
+.button {
+  border: 0.0625rem solid $border-color-button-primary;
+  text-align: center;
+  width: 100%;
+  background-color: $bg-color-button-primary;
+}
+
+.button--text {
+  padding-top: 1.21875rem;
+  padding-right: 0.3125rem;
+  padding-bottom: 1.21875rem;
+  padding-left: 0.3125rem;
+  font-size: 1.0625rem;
+  line-height: 1.2353;
+  font-weight: 600;
+  color: $text-color-primary;
+}

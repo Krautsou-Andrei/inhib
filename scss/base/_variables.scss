@@ -1,0 +1,73 @@
+$pallete-color-white: #f5f5f5;
+$pallete-color-dark: #1a1a1a;
+$pallete-color-silver: #929292;
+
+// $pallete-color: #929292;
+
+$text-color-primary: $pallete-color-dark;
+$text-color-secondary: $pallete-color-white;
+$text-color-footer: $pallete-color-silver;
+$text-color-menu-burger: $pallete-color-dark;
+$text-color-link: $pallete-color-silver;
+$text-color-fieldset: $pallete-color-silver;
+
+$border-color-button-primary: $pallete-color-white;
+$border-color-button-secondary: $pallete-color-dark;
+$border-color: $pallete-color-silver;
+$border-color-item-opacity: rgba(146, 146, 146, 0.2);
+
+$bg-color-button-primary: $pallete-color-white;
+$bg-color-button-secondary: $pallete-color-dark;
+$bg-color-button: $pallete-color-white;
+$bg-color-button-active: $pallete-color-silver;
+$bg-color-menu-burger: $pallete-color-white;
+$bg-color-primary: $pallete-color-silver;
+$bg-color-secondary: $pallete-color-dark;
+$bg-color-item: $pallete-color-silver;
+$arrow-color: $pallete-color-silver;
+$arrow-color-active: $pallete-color-dark;
+
+$footer-bgcolor: $pallete-color-dark;
+
+$width: 77.5rem;
+$width-footer: 75rem;
+$width-heading-info: 64.125rem;
+$height-heading-info: height;
+
+@mixin height {
+  min-height: 16.375rem;
+}
+
+@mixin heading--xxl($font-size: 5rem, $line-height: 1.1, $font-weight: 700, $color: $text-color-primary) {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  color: $color;
+}
+@mixin heading--xl($font-size: 3rem, $line-height: 1.1042, $font-weight: 700, $color: $text-color-primary) {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  color: $color;
+}
+
+@mixin heading--lg($font-size: 2.25rem, $line-height: 1.1111, $font-weight: 500, $color: $text-color-primary) {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  color: $color;
+}
+
+@mixin heading--md($font-size: 1.125rem, $line-height: 1.2778, $font-weight: 700, $color: $text-color-primary) {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  color: $color;
+}
+
+@mixin heading--sm($font-size: 1.125rem, $line-height: 1.2778, $font-weight: 600, $color: $text-color-primary) {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  color: $color;
+}

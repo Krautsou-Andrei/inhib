@@ -1,0 +1,46 @@
+.form__check-box {
+}
+.check-box {
+}
+.check-box__input {
+  display: none;
+  &:checked + .check-box__label::after {
+    transform: scale(1);
+  }
+}
+.check-box__label {
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.check-box__label::before {
+  content: "";
+  display: block;
+  flex: 0 0 1.25rem;
+  height: 1.25rem;
+  border: 0.0625rem solid $border-color;
+}
+
+.check-box__label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0.875rem;
+  height: 0.625rem;
+  top: 50%;
+  margin-top: -0.3125rem;
+  left: 0.1875rem;
+  transform: scale(0);
+  background-image: url("../image/agree.svg");
+  transition: transform 0.5s ease 0;
+}
+
+.text--description {
+}
+.check-box--text {
+  // word-wrap: break-word;
+  color: $text-color-fieldset;
+}

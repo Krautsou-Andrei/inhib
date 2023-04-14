@@ -1,0 +1,35 @@
+.footer {
+  background: linear-gradient(to right, $bg-color-primary 50%, $bg-color-secondary 50%);
+}
+.footer__container {
+  max-width: $width;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: stretch;
+  gap: 0;
+}
+
+.footer__section {
+  flex: 1;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  min-height: 26.75rem;
+  // width: 50%;
+  // min-width: 31.25rem;
+}
+.footer-section--first {
+  background-color: $bg-color-primary;
+}
+.footer-section--second {
+  background-color: $bg-color-secondary;
+}
+
+.footer__form {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+  padding-left: 2.5rem;
+}
+.footer__info {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}

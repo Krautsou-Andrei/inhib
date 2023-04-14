@@ -1,0 +1,25 @@
+.brand-info__section {
+  gap: 3.75rem;
+}
+
+.brand-info__heading {
+  flex: 1;
+  min-width: 31.25rem;
+}
+
+.brand-info-deacription-wrap {
+  flex: 1;
+  min-width: 31.25rem;
+}
+.brand-info__text {
+  padding-bottom: 1.28125rem;
+}
+
+.brand-info__link {
+  display: inline;
+
+  color: $text-color-link;
+  svg {
+    margin-left: 1.375rem;
+  }
+}

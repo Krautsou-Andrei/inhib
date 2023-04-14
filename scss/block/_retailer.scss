@@ -1,0 +1,22 @@
+.retailer__section {
+  min-width: 20.25rem;
+  flex: 1;
+  align-self: center;
+}
+
+.retailer__heading {
+  padding-bottom: 2.5rem;
+}
+
+.retailer__text {
+  padding-bottom: 1.28125rem;
+}
+
+.retailer__link {
+  display: inline;
+
+  color: $text-color-link;
+  svg {
+    margin-left: 1.375rem;
+  }
+}
