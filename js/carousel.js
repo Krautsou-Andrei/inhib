@@ -50,6 +50,17 @@ $(document).ready(function () {
     adaptiveHeight: true,
     prevArrow: $(".arrow-prev.silder-arrow--partners"),
     nextArrow: $(".arrow-next.silder-arrow--partners"),
+
+    responsive: [
+      {
+        breakpoint: 769,
+        settings: {
+          arrows: false,
+          autoplay: true,
+          infinite: true,
+        },
+      },
+    ],
   });
 });
 

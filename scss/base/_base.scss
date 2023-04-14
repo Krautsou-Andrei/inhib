@@ -45,6 +45,7 @@ body {
 .container {
   padding-top: 12.5rem;
   padding-bottom: 12.5rem;
+  overflow: hidden;
   + .container {
     padding-top: 0;
   }
