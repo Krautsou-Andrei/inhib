@@ -1,9 +1,9 @@
-const menuButton = document.querySelector(".menu-burger__button");
-const menuBurger = document.querySelector(".menu-burger");
+const menuButton = document.querySelector('.menu-burger__button');
+const menuBurger = document.querySelector('.menu-burger');
 
-menuButton.addEventListener("click", () => {
-  menuBurger.classList.toggle("active");
-  menuButton.classList.toggle("active");
+menuButton.addEventListener('click', () => {
+  menuBurger.classList.toggle('active');
+  menuButton.classList.toggle('active');
 });
 
 // const buttonOrder = document.querySelector(".button-order");
