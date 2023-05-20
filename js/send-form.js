@@ -1,6 +1,6 @@
 const arrayUrl = [
   {
-    inUrl: 'http://testsait/2023/05/18/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80/',
+    inUrl: 'https://krautsou-andrei.github.io/inhib/',
     toUrl: 'http://example.com',
   },
   {
